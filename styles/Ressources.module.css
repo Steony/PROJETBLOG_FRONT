@@ -1,0 +1,54 @@
+.resources {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-top: 30px;
+}
+
+.header {
+  color: #000000;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.description, .text {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+ 
+}
+
+.listItem {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+ 
+  text-align: left;
+}
+
+.link {
+  color: #9921c9;
+  text-decoration: none;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #6525be;
+  text-decoration: underline;
+}
